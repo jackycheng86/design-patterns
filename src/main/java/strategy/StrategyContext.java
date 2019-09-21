@@ -1,13 +1,13 @@
 package strategy;
 
 /**
- * 装了锦囊的袋子
+ * 策略执行环境
  * @author chengjian
  * @date 2019/7/14
  */
-public class StrategyBags {
+public class StrategyContext {
     private Strategy strategy;
-    public StrategyBags(Strategy strategy) {
+    public StrategyContext(Strategy strategy) {
         this.strategy = strategy;
     }
     //使用锦囊
