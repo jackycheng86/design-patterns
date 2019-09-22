@@ -1,0 +1,26 @@
+@startuml
+
+interface Strategy{
+operate()
+}
+
+class StrategyCode {
+}
+class StrategyRead{
+}
+class StrategySport{
+}
+class StrategyStudy{
+}
+
+class StrategyContext{
+    Strategy stretegy
+    operate()
+}
+
+Strategy <|-- StrategyCode
+Strategy <|-- StrategyRead
+Strategy <|-- StrategySport
+Strategy <|-- StrategyStudy
+
+@enduml
