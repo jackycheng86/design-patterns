@@ -8,6 +8,6 @@ public class StrategyStudy implements Strategy {
      * @date 2019/7/14
      */
     public void operate() {
-        System.out.println("学习一会儿");
+        System.out.println("学习一会儿，再写程序");
     }
 }

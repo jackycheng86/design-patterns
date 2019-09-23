@@ -10,7 +10,7 @@ public class StrategyContext {
     public StrategyContext(Strategy strategy) {
         this.strategy = strategy;
     }
-    //使用锦囊
+    //执行
     public void operate(){
         strategy.operate();;
     }

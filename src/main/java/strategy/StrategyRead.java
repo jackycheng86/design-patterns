@@ -8,6 +8,6 @@ public class StrategyRead implements Strategy {
      * @date 2019/7/14
      */
     public void operate() {
-        System.out.println("看会儿小说");
+        System.out.println("看会儿小说，再写程序！");
     }
 }

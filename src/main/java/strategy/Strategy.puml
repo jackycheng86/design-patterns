@@ -4,8 +4,6 @@ interface Strategy{
 operate()
 }
 
-class StrategyCode {
-}
 class StrategyRead{
 }
 class StrategySport{
@@ -18,7 +16,6 @@ class StrategyContext{
     operate()
 }
 
-Strategy <|-- StrategyCode
 Strategy <|-- StrategyRead
 Strategy <|-- StrategySport
 Strategy <|-- StrategyStudy
