@@ -1,0 +1,22 @@
+@startuml
+
+interface Service{
+requestService()
+}
+class Server{
+requestService()
+}
+class Proxy{
+Server server
+requestService()
+preService()
+postService()
+}
+
+Service <-- Server
+Service <-- Proxy
+
+class ProxyTest{
+}
+
+@enduml
