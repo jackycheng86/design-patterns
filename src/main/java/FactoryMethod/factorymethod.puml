@@ -1,0 +1,25 @@
+@startuml
+
+interface AbstractFactory{
+    Product createProduct()
+}
+
+interface Product{
+    void doSomething()
+}
+
+class ConcreteFactory{
+    Product createProduct()
+}
+
+class ConcreteProduct{
+    void doSomething()
+}
+
+class Client{
+    Product getProduct()
+}
+
+AbstractFactory <|--    ConcreteFactory
+Product <|--    ConcreteProduct
+@enduml
